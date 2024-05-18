@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLR REGISTRATION FORM </title>
+</head>
+<body>
+    <form action="main.py">
+        <h1><center><u><mark>Learner's Licence Registration Form</mark></u></center></h1>
+        <div>
+            <label for="Name"><b>NAME :</b></label>
+            <input type="text" name="Name" id="Name">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="age"><b>AGE :</b></label>
+            <input type="number" name="age " id="age">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="dob"><b>DATE OF BIRTH :</b></label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="em"><b>EMAIL ID :</b></label>
+            <input type="email" name="em" id="em">
+        </div>
+        <br>
+        <br>
+        <div>
+            <p><b>SELECT YOUR GENDER :</b></p>
+            <input type="radio" name="m" id="M">
+            <label for="M">Male</label>
+            <input type="radio" name="m" id="F">
+            <label for="F">Female</label>
+            <input type="radio" name="m" id="O">
+            <label for="O">Others</label>
+        </div>
+        <br>
+        <br>
+        <div>
+            <p><b>TYPES OF VEHICLES :</b></p>
+            <input type="checkbox" name="type" id="2wheeler">
+            <label for="2wheeler">2 Wheelers</label>
+            <input type="checkbox" name="type" id="4wheeler">
+            <label for="4wheeler">4 Wheelers</label>
+        </div>
+        <br>
+        <br>
+        <div>
+            <p><b>VEHICLE CATEGORIES :</b></p>
+            <select name=categories" id="categories">
+              <optgroup label="M/CYCL WG">
+                <option value="scooties">Scooties</option>
+                <option value="bikes">Bikes</option>
+                <option value="racing">Racing Bikes</option>
+              </optgroup>
+              <optgroup label="LMV">
+                <option value="motorcar">Motorcars</option>
+                <option value="jeeps">Jeeps</option>
+                <option value="taxis">taxis</option>
+                <option value="vans">Vans</option>
+              </optgroup>
+            </select>
+        </div>
+        <br>
+        <br>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
