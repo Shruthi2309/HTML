@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Rock+Salt&display=swap');
+*
+{
+    box-sizing: border-box;
+    
+}
+:root{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+   padding: 0px;
+    background-color: #d4af37 ;
+    color: black;
+    max-height: 1280px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white ;
+    position: sticky;
+    padding: 40px 20px;
+    top: 0px;
+    font-size: 40px;
+}
+header span{
+    color: blueviolet;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:"Protest Revolution", sans-serif;
+}
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.movies img
+{
+    width: 200px;
+    height: 200px;
+    justify-items: center;
+    align-items: center;
+
+}
+img{
+    justify-items: center;
+    align-items: center;
+}
+.movies{
+    box-shadow: 5px 5px 5px blue;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 2s ease;
+    
+}
+.movies:hover{
+    transform: scale(1.1);
+}
+p{
+    font-size: 20px;
+    font-family:"Protest Revolution", sans-serif; 
+    font-weight: 500;
+    justify-content: center;
+    text-align: justify;
+}
+h2{
+    font-size: 30px;
+    font-family: "Protest Revolution", sans-serif;
+    justify-content: center;
+    text-align: center;
+    color: blueviolet;
+}
+h3{
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+
+}
