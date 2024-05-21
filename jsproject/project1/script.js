@@ -357,9 +357,9 @@ function displayData (data)
 {
     data.forEach(function (ele)
     {
-		const someDiv = document.createElement("div") //<div></div>
-        someDiv.classList.add("movies") //<div class="cartoon"></div>
-        const heading = document.createElement('h2')//<h1></h1>
+		const someDiv = document.createElement("div")
+        someDiv.classList.add("movies") 
+        const heading = document.createElement('h2')
         heading.textContent = ele.Title
         const image = document.createElement('img')
         image.setAttribute('src', ele.Poster)
@@ -369,9 +369,7 @@ function displayData (data)
         const desc = document.createElement("p")
         desc.textContent = ele.Story
         someDiv.append(heading,image,year,desc)
-        mainDiv.appendChild(someDiv)//<div id="library">
-        //<div class="cartoon"</div>
-        // </div >
+        mainDiv.appendChild(someDiv)
 	})
 }
 displayData(data)

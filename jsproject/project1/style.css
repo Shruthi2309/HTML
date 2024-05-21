@@ -26,6 +26,7 @@ header{
     padding: 40px 20px;
     top: 0px;
     font-size: 40px;
+    z-index: 1000;
 }
 header span{
     color: blueviolet;
@@ -33,7 +34,7 @@ header span{
 h1{
     text-align: center;
     font-size: 40px;
-    font-family:"Protest Revolution", sans-serif;
+    font-family:"Protest Revolution", sans-serif;  
 }
 #movies{
     display: grid;
@@ -44,13 +45,13 @@ h1{
 {
     width: 200px;
     height: 200px;
-    justify-items: center;
     align-items: center;
-
+    justify-self: center;
+    
 }
 img{
-    justify-items: center;
-    align-items: center;
+  align-self: center;
+  justify-content: center;
 }
 .movies{
     box-shadow: 5px 5px 5px blue;
@@ -60,6 +61,7 @@ img{
     flex-direction: column;
     justify-content: center;
     transition: all 2s ease;
+    perspective: 200;
     
 }
 .movies:hover{
