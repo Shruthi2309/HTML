@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Train+One&display=swap');
+
+/* 1st font-family:"Creepster", system-ui;
+   2nd font-family:"Train One", system-ui; */
+
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+body{
+    background: radial-gradient(#016764,#001E1E);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    color:#016764 ;
+    position: sticky;
+    padding: 40px 20px;
+    top: 0px;
+    font-size: 50px;
+    z-index: 2000;
+}
+header span{
+    color: #001E1E;
+}
+#products{
+display: grid;
+grid-template-columns: repeat(3,auto);
+gap: 25px;
+
+}
+.product{
+  display: flex;
+ flex-direction: column;
+ background-color: white;
+ box-shadow: 10px 5px 10px black;
+ padding: 50px;
+ transition: all 1s ease-in;
+}
+.product:hover{
+    transform: scale(0.9);
+    border-radius: 25px;
+}
+.product img{
+    height: 200px;
+    align-items: center;
+    justify-content: center; 
+}
+img{
+    align-items: center;
+    justify-content: center;   
+     
+}
+h1{
+    text-align: center;
+    font-family: "Train One", system-ui;
+    font-size: 50px;
+    font-weight: 800;
+    color: antiquewhite;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family:"Train One", system-ui; 
+    font-weight: 600;
+}
+p{
+    font-size: 25px;
+    font-family:"Creepster", system-ui;
+    font-weight: 400;
+}
